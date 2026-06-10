@@ -1,0 +1,28 @@
+^C:\USERS\DAVID\DOWNLOADS\PROYECTO_FINAL_DAVIDALEJANDROORTEGAGARCIA\FINAL_ACTIVITY_DECOMPILE\BUILD\WINDOWS\X64\CMAKEFILES\D0A706B6347CA3D8457DFDA1F61A3D5E\FLUTTER_WINDOWS.DLL.RULE
+setlocal
+"A:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E env "FLUTTER_ROOT=A:\Programacion\VSCode Files\FlutterAPI\flutter" PROJECT_DIR=C:\Users\david\Downloads\Proyecto_Final_DavidAlejandroOrtegaGarcia\Final_Activity_Decompile "FLUTTER_ROOT=A:\Programacion\VSCode Files\FlutterAPI\flutter" FLUTTER_EPHEMERAL_DIR=C:\Users\david\Downloads\Proyecto_Final_DavidAlejandroOrtegaGarcia\Final_Activity_Decompile\windows\flutter\ephemeral PROJECT_DIR=C:\Users\david\Downloads\Proyecto_Final_DavidAlejandroOrtegaGarcia\Final_Activity_Decompile FLUTTER_TARGET=lib\main.dart DART_OBFUSCATION=false TRACK_WIDGET_CREATION=true TREE_SHAKE_ICONS=true PACKAGE_CONFIG=C:\Users\david\Downloads\Proyecto_Final_DavidAlejandroOrtegaGarcia\Final_Activity_Decompile\.dart_tool\package_config.json "A:/Programacion/VSCode Files/FlutterAPI/flutter/packages/flutter_tools/bin/tool_backend.bat" windows-x64 Release
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\DAVID\DOWNLOADS\PROYECTO_FINAL_DAVIDALEJANDROORTEGAGARCIA\FINAL_ACTIVITY_DECOMPILE\BUILD\WINDOWS\X64\CMAKEFILES\A58982B8D7110194E0A1D06F6F2E8062\FLUTTER_ASSEMBLE.RULE
+setlocal
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\DAVID\DOWNLOADS\PROYECTO_FINAL_DAVIDALEJANDROORTEGAGARCIA\FINAL_ACTIVITY_DECOMPILE\WINDOWS\FLUTTER\CMAKELISTS.TXT
+setlocal
+"A:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/Users/david/Downloads/Proyecto_Final_DavidAlejandroOrtegaGarcia/Final_Activity_Decompile/windows -BC:/Users/david/Downloads/Proyecto_Final_DavidAlejandroOrtegaGarcia/Final_Activity_Decompile/build/windows/x64 --check-stamp-file C:/Users/david/Downloads/Proyecto_Final_DavidAlejandroOrtegaGarcia/Final_Activity_Decompile/build/windows/x64/flutter/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

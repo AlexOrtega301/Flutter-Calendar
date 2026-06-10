@@ -1,0 +1,10 @@
+^C:\USERS\DAVID\DOWNLOADS\PROYECTO_FINAL_DAVIDALEJANDROORTEGAGARCIA\FINAL_ACTIVITY_DECOMPILE\WINDOWS\FLUTTER\CMAKELISTS.TXT
+setlocal
+"A:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/Users/david/Downloads/Proyecto_Final_DavidAlejandroOrtegaGarcia/Final_Activity_Decompile/windows -BC:/Users/david/Downloads/Proyecto_Final_DavidAlejandroOrtegaGarcia/Final_Activity_Decompile/build/windows/x64 --check-stamp-file C:/Users/david/Downloads/Proyecto_Final_DavidAlejandroOrtegaGarcia/Final_Activity_Decompile/build/windows/x64/flutter/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
