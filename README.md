@@ -32,6 +32,6 @@ No se garantiza estabilidad ni soporte completo.
 ---
 
 ## 👨‍💻 Autor
-Desarrollado por **Dancin Bros Studios**  
+Desarrollado por **AlexOrtega301** 
 Un proyecto de prueba con enfoque en aprendizaje y exploración.
 
