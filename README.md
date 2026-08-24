@@ -21,8 +21,9 @@ experimentando con la gestión de tareas y la integración de elementos visuales
 
 ## 🛠️ Tecnologías
 - **Framework:** Flutter  
-- **Lenguaje:** Dart  
-
+- **Lenguaje:** Dart
+- **Plataforma:** Windows x64
+ 
 ---
 
 ## 📜 Estado
